@@ -36,8 +36,8 @@
       <file leaf-file-name="image_reader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deeplab_resnet/image_reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="62" column="75" lean-forward="false" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -53,6 +53,7 @@
       <find>img_ori</find>
       <find>tf.mul</find>
       <find>tf.pack</find>
+      <find>split_dim</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,8 +181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deeplab_resnet/image_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="62" column="75" lean-forward="false" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

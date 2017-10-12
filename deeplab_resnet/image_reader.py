@@ -60,7 +60,7 @@ def read_images_from_disk(input_queue, input_size, random_scale):  # optional pr
             label = tf.squeeze(label, squeeze_dims=[0])
         img = tf.image.resize_image_with_crop_or_pad(img, h, w)
         label = tf.image.resize_image_with_crop_or_pad(label, h, w)
-    img_r, img_g, img_b = tf.split(split_dim=2, num_split=3, value=img)
+    img_r, img_g, img_b = tf.split(axis=2, num_or_size_splits=3, value=img)
     img = tf.cast(tf.concat(2, [img_b, img_g, img_r]), dtype=tf.float32)
     # extract mean
     img -= IMG_MEAN
